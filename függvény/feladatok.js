@@ -54,3 +54,9 @@ function sigma(numbers) {
     return numbers.reduce((total, item ) => total * item);
 }
 console.log(sigma(numbers));
+
+
+let number = 3
+const increase = (number) => number+1 ;
+
+//A kód nem működik a várt módon, mert a number++ kifejezés csak a increase függvényen belül növeli meg a number változót, de a külső number változóra nem hat.
